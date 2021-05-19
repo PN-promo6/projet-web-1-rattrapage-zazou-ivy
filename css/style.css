@@ -21,11 +21,10 @@ img {
 }
 h1 {
   font-size: 2.3rem;
-  font-family: "prata", serif;
-  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
   display: inline-block;
   width: 24%;
-  color: black;
+  color: #6c0808;
   text-align: left;
   outline: none;
   text-decoration: none;
@@ -60,7 +59,6 @@ h4 {
 .discover_now, .product-cta, .description a, .footer-column ul, .learn_more a   {
   text-decoration: none;
 }
-
 
 /* NAVIGATION */
 .container {
@@ -177,12 +175,13 @@ header {
   padding-bottom: 20px;
   display: inline-block;
   padding: 10px;
-  border: 2px solid #4f262e;
+  /* border: 2px solid #4f262e; */
   text-align: center;
   border-radius: 8px;
   font-family: "source sans pro", sans-serif;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  background-color: #4d1e27
+  background-color: black;
+
 }
 
 .discover_now:hover, .discover_now:active {
@@ -203,6 +202,7 @@ header {
 /* SHOP */
 .products {
   justify-content: space-around;
+  margin: 0 10%;
 }
 
 .week_products {
@@ -228,7 +228,6 @@ header {
 .week_products h2, .description-website, footer h3, .transition-text p, first-advantage p, .first-advantage, .second-advantage p, .third-advantage p, .cruelty_free p, h4, .description-website p, .promotion-products h2  {
   font-family: "source sans pro", sans-serif;
 }
-
 
 .single-product {
   margin: 0 auto;
@@ -306,7 +305,7 @@ header {
 }
 
 .product-cta {
-  background-color: #8b4e54;
+  background-color:black;
   color: white;
   padding: 10px 50px;
   font-size: 1.5rem;
@@ -335,7 +334,6 @@ header {
 text-align: center;
 }
 
-
 .description a {
   color: black;
   font-size: 1.5rem;
@@ -362,7 +360,7 @@ text-align: center;
 }
 
 .text-container h2 {
-  background-color: black;
+  background-color: #a26f6f;
   color: white;
   width: 100%;
   height: 80px;
@@ -386,7 +384,7 @@ text-align: center;
   bottom: 23%;
   right: 15%;
   padding: 7px;
-  color: black;
+  color: #bc7878;
 }
 
 .learn_more a {
@@ -435,7 +433,6 @@ color: #530505;
 font-family: "source sans pro", sans-serif;
 }
 
-
 .first-advantage img, .second-advantage img, .third-advantage img {
   width: 17%;
   margin: 0 auto;
@@ -449,7 +446,7 @@ font-family: "source sans pro", sans-serif;
 /* FOOTER */
 .website-footer {
  color: #530505;;
-  margin: 26px;
+  margin: 65px;
 }
 
 footer h3 {
@@ -467,10 +464,9 @@ footer h3 {
 }
 
 .footer-column {
-  width: 25%;
+  width: 34%;
   text-align: center;
 }
-
 
 .footer-column ul {
   font-size: 1.2rem;
@@ -496,7 +492,6 @@ form>div {
   resize: none;
   width: 80%;
 }
-
 
 /* FOLLOWING MEDIA */
 .follow {
